@@ -243,6 +243,8 @@ input, label {
 	}
 	.description2 img {
 		margin: 2% 0;
+		display :inline-block;
+		max-width: 100%;
 	}
 	.icons2 {
 		margin: 0;

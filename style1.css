@@ -4,10 +4,11 @@
 }
 
 body {
-	font-family: 'Titillium Web', Arial, sans-serif;
+	font-family: 'Titillium Web', Verdana, sans-serif;
 	box-sizing: border-box;
 	color: #000;
 	font-size: 12px;
+	font-weight:400;
 }
 
 /*clearfix*/
@@ -191,7 +192,6 @@ h4 {
 }
 
 .icon {
-	font-size: 5em;
 	margin: 2% 0;
 	color: #006F5F;
 }
@@ -222,10 +222,13 @@ input, label {
 }
 
 @media (min-width: 300px) and (max-width: 540px) {
+	.hero {
+		background-size: 200vw;
+	}
 	.btn-lg {
 		margin: 2% 10%;
     	width: 80%;
-    	font-size: 2em;
+    	font-size: 1.5em;
 	}
 	h1 {
 		font-size: 3em;
@@ -245,6 +248,7 @@ input, label {
 		margin: 2% 0;
 		display :inline-block;
 		max-width: 100%;
+		width: 46%;
 	}
 	.icons2 {
 		margin: 0;

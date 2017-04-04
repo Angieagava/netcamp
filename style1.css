@@ -225,6 +225,12 @@ input, label {
 }
 
 @media (min-width: 300px) and (max-width: 540px) {
+	
+	.nav {
+		padding: 0 10px;
+		margin: 0 auto;
+		
+	}
 	.hero {
 		background-size: 200vw;
 	}

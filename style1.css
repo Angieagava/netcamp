@@ -221,7 +221,7 @@ input, label {
 	padding-top: 2%;
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 540px) {
 	.btn-lg {
 		margin: 2% 10%;
     	width: 80%;
@@ -241,5 +241,7 @@ input, label {
 	.description {
 		margin-top: 2%;
 	}
-	
+	.icons2 {
+		margin: 0;
+	}
  }

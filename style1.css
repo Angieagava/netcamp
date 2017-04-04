@@ -241,6 +241,9 @@ input, label {
 	.description {
 		margin-top: 2%;
 	}
+	.description2 img {
+		margin: 2% 0;
+	}
 	.icons2 {
 		margin: 0;
 	}

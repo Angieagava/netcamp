@@ -52,6 +52,10 @@ body {
 	display: block;
 	margin: 0 auto;
 }
+.mobile {
+	visibility:hidden;
+	display:none;
+}
 .nav h4  {
 	text-align: center;
 	border: 1px solid #006F5F;
@@ -226,7 +230,15 @@ input, label {
 }
 
 @media (min-width: 300px) and (max-width: 540px) {
-	
+	.mobile {
+		visibility:visible;
+		display:block;
+	}
+
+	.mobile2 {
+		display:none;
+		visibility:hidden;
+	}
 	.nav {
 		padding: 0 10px;
 		margin: 0 auto;

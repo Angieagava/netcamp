@@ -83,7 +83,7 @@ h4 {
 }
 .btn-lg {
 	margin: 5% 25%;
-    border: 0;
+    border: 2px solid transparent;
     width: 50%;
     max-height: 80px;
     background: #006F5F;
@@ -112,7 +112,8 @@ h4 {
 	margin: 5% 25%;
 	font-size: 2em;
 	background: #4b9bf4;
-	border: 0;
+	border: 2px solid transparent;
+
 }
 
 .btn-primary:hover {
@@ -229,7 +230,7 @@ input, label {
 	.nav {
 		padding: 0 10px;
 		margin: 0 auto;
-		
+
 	}
 	.hero {
 		background-size: 200vw;

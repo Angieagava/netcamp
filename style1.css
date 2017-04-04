@@ -183,7 +183,7 @@ h4 {
 }
 .description2 img {
 	display: inline-block;
-	margin: 3%;
+	margin: 2%;
 	max-width: 100%;
 }
 
@@ -193,7 +193,7 @@ h4 {
 
 .icon {
 	font-size: 5em;
-	margin: 2%;
+	margin: 2% 0;
 	color: #006F5F;
 }
 
@@ -238,5 +238,11 @@ input, label {
 	.logo img {
 		display: block;
 		margin: 0 auto;
+	}
+	.description {
+		margin-top: 2%;
+	}
+	.icon img {
+		margin: 2%;
 	}
  }

@@ -28,7 +28,9 @@ body {
   width: 100vw;
   margin: 0 auto;
 }
-
+.img {
+	max-width: 100%;
+}
 .hero {
 	background-image: url('https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg');
 	background-size: 100vw;
@@ -80,7 +82,7 @@ h4 {
 	margin: 5% 25%;
     border: 0;
     width: 50%;
-    height: 80px;
+    max-height: 80px;
     background: #006F5F;
     font-size: 3em;
     color: #fff;
@@ -167,17 +169,35 @@ h4 {
 	padding-top: 10px;
 	padding-bottom:5px;
 }
+.description2{
+	margin-top: 5%;
+}
+
+.description2 h3{
+	text-align:center;
+	font-size: 2em;
+	background: #006F5F;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 5%;
+}
+.description2 img {
+	display: inline-block;
+	margin: 3%;
+	max-width: 100%;
+}
+
 .gallery {
 	margin: 20px;
 }
 
 .icon {
 	font-size: 5em;
-	margin: 10px auto;
+	margin: 2%;
 	color: #006F5F;
 }
 
-.photo>img {
+.icon img {
 	max-width: 100%;
 
 }
@@ -201,3 +221,22 @@ input, label {
 	text-align: center;
 	padding-top: 2%;
 }
+
+@media (min-width: 300px) and (max-width: 760px) {
+	.btn-lg {
+		margin: 2% 10%;
+    	width: 80%;
+    	font-size: 2em;
+	}
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+	.logo img {
+		display: block;
+		margin: 0 auto;
+	}
+ }

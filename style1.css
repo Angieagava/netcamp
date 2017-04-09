@@ -35,12 +35,13 @@ body {
 	max-width: 100%;
 }
 
-.hero {
-	background-image: url('https://static.pexels.com/photos/271560/pexels-photo-271560.jpeg');
+.jumbotron {
+	background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.3)),url('https://static.pexels.com/photos/7065/space-desk-office-hero-7065.jpg');
 	background-size: 100vw;
 	background-repeat: no-repeat;
 	max-height: 1200px;
 	overflow: hidden;
+
 }
 .logo {
 	padding: 20px 50px;
@@ -56,7 +57,8 @@ body {
 	visibility:hidden;
 	display:none;
 }
-.nav h4  {
+header > .row > .logo > a > h4, 
+header > .row > .logo  > h4 {
 	text-align: center;
 	border: 1px solid #006F5F;
 	border-radius: 5px;
@@ -71,14 +73,12 @@ h1 {
 	text-align: center;
 	font-size: 5em;
 	margin: 10vh 5vw 5vh;
-	text-shadow: 2px 2px #fff;
 }
 
 h2 {
 	text-align: center;
 	font-size: 3em;
 	margin-top: 2vh;
-	text-shadow: 2px 2px #fff;
 }
 
 h4 {
@@ -97,7 +97,7 @@ h4 {
 }
 
 .btn-lg:hover {
-	background: white;
+	background: #fff;
 	color: #006F5F;
 	border: 2px dotted #006F5F;
 	transition: .5s;
@@ -165,14 +165,14 @@ h4 {
 }
 
 .btn-success:hover {
-	background: white;
+	background: #fff;
 	color: #00A1C7;
 	border: 2px solid #00A1C7;
 	transition: .5s;
 	border-radius: 15px;
 }
 
-.description {
+.main {
 	text-align: center;
 	font-size: 1.3em;
 	margin: 0 auto;
@@ -180,7 +180,7 @@ h4 {
 	margin-top: 5%;
 }
 
-.description img {
+.main img {
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
@@ -196,11 +196,11 @@ h4 {
 	padding-top: 10px;
 	padding-bottom:5px;
 }
-.description2{
+aside {
 	margin-top: 5%;
 }
 
-.description2 h3{
+aside h3{
 	text-align:center;
 	font-size: 2em;
 	background: #006F5F;
@@ -208,7 +208,7 @@ h4 {
 	padding: 10px 5px;
 	margin-bottom: 5%;
 }
-.description2 img {
+aside img {
 	display: inline-block;
 	margin: 2%;
 	max-width: 100%;
@@ -238,7 +238,7 @@ input, label {
     display: none;
 } 
 
-.footer {
+footer {
 	height: 100px;
 	background: #006F5F;
 	color: #fff;
@@ -258,12 +258,12 @@ input, label {
 		display:none;
 		visibility:hidden;
 	}
-	.nav {
+	header {
 		padding: 0 10px;
 		margin: 0 auto;
 
 	}
-	.hero {
+	.jumbotron {
 		background-size: 200vw;
 	}
 	.btn-lg {
@@ -285,10 +285,10 @@ input, label {
 		display: block;
 		margin: 0 auto;
 	}
-	.description {
+	.main {
 		margin-top: 2%;
 	}
-	.description2 img {
+	aside img {
 		margin: 2% 0;
 		display :inline-block;
 		max-width: 100%;

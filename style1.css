@@ -131,12 +131,12 @@ h4 {
 }*/
 
 .form h2 {
-	color:#00A1C7;
+	color:#006F5F;
 }
 .form-space {
 	overflow: hidden;
     margin: 3%;
-    border: 4px solid #00A1C7;
+    border: 4px solid #006F5F;
     border-radius: 10px;
 }
 .form-group {
@@ -148,12 +148,12 @@ h4 {
 .form-control {
 	height:50px;
 	color: #00A1C7;
-    border: 2px solid #00A1C7;
+    border: 2px solid #006F5F;
 }
 
 .btn-success {
     width: 22%;
-    background: #00A1C7;
+    background: #006F5F;
     font-size: 1.5em;
     color: #fff;
     text-align: center;
@@ -167,7 +167,7 @@ h4 {
 .btn-success:hover {
 	background: #fff;
 	color: #00A1C7;
-	border: 2px solid #00A1C7;
+	border: 2px solid #006F5F;
 	transition: .5s;
 	border-radius: 15px;
 }

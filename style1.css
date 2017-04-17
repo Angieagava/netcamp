@@ -163,8 +163,9 @@ h4 {
 	transform: scale(1.1);
 }*/
 
-.form h2 {
+.form h2, .form h3 {
 	color:#fff;
+	text-align: right;
 }
 .form-space {
 	/*background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg');

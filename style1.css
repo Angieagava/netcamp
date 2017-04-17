@@ -86,6 +86,7 @@ header > .row > .logo > h4 {
 	text-align: center;
 	background: #fff;
 	color: #00A3DD;
+	border-bottom: 2px solid #000;
 }
 
 header > .row > .logo  > h3 {

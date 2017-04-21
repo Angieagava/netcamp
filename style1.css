@@ -5,7 +5,6 @@
 
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
-	box-sizing: border-box;
 	color: #000;
 	font-size: 12px;
 	font-weight:400;
@@ -22,15 +21,7 @@ body {
     clear: both;
 }
 
-.row {
-	margin: 0;
-}
 .container {
-	padding: 0;
-	width: 100vw;
-	margin: 0 auto;
-	border-radius:0;
-	border:0;
 }
 
 .img {
@@ -39,7 +30,7 @@ body {
 
 
 .jumbotron {
-	background-image: radial-gradient(rgba(255,255,255,.8),rgba(0,163,221,.2)),url('https://static.pexels.com/photos/7065/space-desk-office-hero-7065.jpg');
+	background-image: radial-gradient(rgba(255,255,255,.8),rgba(255,255,255,.3)),url('https://static.pexels.com/photos/7065/space-desk-office-hero-7065.jpg');
 	background-size: 100vw;
 	background-repeat: no-repeat;
 	max-height: 1200px;
@@ -86,12 +77,10 @@ header > .row > .logo > h4 {
 	text-align: center;
 	background: #fff;
 	color: #00A3DD;
-	border-bottom: 2px solid #000;
 }
 
 header > .row > .logo  > h3 {
 	text-align: center;
-	border-top: 5px solid #000;
 	background: #fff;
 	color: #00A3DD;
 	padding-top: 8px;
@@ -132,85 +121,20 @@ h4 {
 .btn-lg:hover {
 	background: #fff;
 	color: #00A3DD;
-	border: 2px dashed #00A3DD;
-	transition: .5s;
-	transform: scale(1.1);
-}
-
-/*.questions {
-	margin: 20vh 0;
-	font-size: 2em;
-	text-align: center;
-}
-
-.btn-primary {
-	width: 50%;
-	height: 80px;
-	display: block;
-	margin: 5% 25%;
-	font-size: 2em;
-	background: #00A1C7;
-	border: 2px solid transparent;
-
-}
-
-.btn-primary:hover {
-	background: #fff;
-	color: #00A3DD;
 	border: 2px solid #00A3DD;
 	transition: .5s;
-	border-radius: 15px;
 	transform: scale(1.1);
-}*/
+}
 
-.form h2, .form h3 {
+.border {
 	color:#fff;
-	text-align: right;
-}
-.form-space {
-	/*background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('https://static.pexels.com/photos/251225/pexels-photo-251225.jpeg');
-	background-size: 100vw;
-	background-repeat: no-repeat;
-	min-height: 400px;
-	max-height: 1200px;*/
-	overflow: hidden;
-	padding: 20px;
+	border-radius: 2%;
+	min-height: 200px;
 	background: #00A3DD;
-
+	border: 5px solid #fff;
+	line-height: 28px;
 }
 
-.form-group {
-	padding: 10px 0;
-	display: block;
-	width:90%;
-	vertical-align: sub;
-}
-.form-control {
-	height:50px;
-	color: #fff;
-    border: 2px solid #00A3DD;
-}
-
-.btn-success {
-    width: 22%;
-    background: #000;
-    font-size: 1.5em;
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    line-height: 30px;
-    vertical-align: middle;
-    border: 2px solid transparent;
-    padding: 8px 0;
-}
-
-.btn-success:hover {
-	background: #fff;
-	color: #00A1C7;
-	border: 2px solid #00A3DD;
-	transition: .5s;
-	border-radius: 15px;
-}
 
 .main {
 	text-align: center;
@@ -229,8 +153,6 @@ h4 {
 .right {
 	text-align: center;
 	text-transform: uppercase;
-	border-top: 2px dashed #00A3DD;
-	border-bottom: 2px dashed #00A3DD;
 }
 
 .right p {
@@ -264,7 +186,9 @@ aside img {
 }
 
 .icon img {
-	max-width: 100%;
+	max-width: 60%;
+	display: block;	
+	margin:0 auto;
 
 }
 .icons2 {
@@ -282,14 +206,62 @@ input, label {
 } 
 
 footer {
-	height: 100px;
-	background: #00A3DD;
 	color: #fff;
 	margin-bottom: 0;
 	font-size: 2em;
 	text-align: center;
 	padding: 2% 2% 0;
 }
+
+footer img {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+footer h3 {
+	background
+}
+.form-space {
+
+	overflow: hidden;
+	padding: 20px;
+	background: #00A3DD;
+
+}
+
+.form-group {
+	padding: 10px 0;
+	display: block;
+	width:100%;
+	vertical-align: sub;
+}
+.form-control {
+	height:50px;
+	color: #000;
+    border: 2px solid #00A3DD;
+}
+
+.btn-success {
+    width: 22%;
+    background: #000;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 8px 0;
+}
+
+.btn-success:hover {
+	background: #fff;
+	color: #00A1C7;
+	border: 2px solid #00A3DD;
+	transition: .5s;
+	border-radius: 15px;
+}
+
 
 @media (min-width: 300px) and (max-width: 640px) {
 	.mobile {

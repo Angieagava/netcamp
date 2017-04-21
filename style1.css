@@ -39,6 +39,8 @@ body {
 	text-transform: uppercase;
 	display: inline-block;
 	position: relative;
+	margin-top: 40px;
+    margin-left: 40px;
 }
 
 .logo_main >span {
@@ -46,7 +48,7 @@ body {
 	font-weight: 700;
 	position: absolute;
 	left: 0;
-	top: 36px;
+	top: 40px;
 	color: #00A3DD;
 	letter-spacing: 1px;
 }

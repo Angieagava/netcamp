@@ -88,3 +88,8 @@ aside h3, aside h5{
 	color:#fff;
 
 }
+@media (min-width: 300px) and (max-width: 640px) {
+	.icon img {
+		max-width: 100%;
+	}
+}

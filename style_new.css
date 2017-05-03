@@ -84,9 +84,12 @@ aside h3, aside h5{
 }
 .icons1 {
 	padding: 0 0.1rem;
+	float: left;
+    min-width: 5rem;
 }
 .icons2 {
 	border-left: 8px solid #8ACF17;
+	float: left;
 }
 .icons2 p{
 	margin: .1rem;
@@ -126,4 +129,8 @@ aside h3, aside h5{
 	.img-rounded {
 		display:none;
 	}
+	.main {
+		display: none;
+	}
 }
+

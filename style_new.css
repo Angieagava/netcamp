@@ -123,4 +123,7 @@ aside h3, aside h5{
 	.icon img {
 		max-width: 100%;
 	}
+	.img-rounded {
+		display:none;
+	}
 }

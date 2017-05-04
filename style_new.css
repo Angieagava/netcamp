@@ -63,11 +63,13 @@ body {
 .btn-success {
 	color:#fff;
 	background:#8ACF17;
+	border: 2px solid transparent;
 }
 .btn-success:hover {
     color: #8ACF17;
     background: #fff;
     text-decoration: : none !important;
+    border: 2px solid #8ACF17;
 }
 
 /*INFO*/
@@ -122,6 +124,11 @@ body {
 .left1 p {
 	font-size: 1.1rem;
 }
+.about img {
+	max-width: 90%;
+	display: block;
+	margin: auto;
+}
 /*ICONS*/
 
 .icon {
@@ -129,22 +136,22 @@ body {
 }
 
 .icon img {
-	max-width: 60%;
+	max-width: 90%;
 	display: block;	
 	margin:0 auto;
 
 }
-.fa-calendar:before, i.fa.fa-certificate, .fa-sitemap:before {
-	font-size: 4rem;
+.info1 i.fa {
+	font-size: 3rem;
 	color: #8ACF17;
 }
 .icons1 {
 	padding: 0 0.1rem;
 	float: left;
-    min-width: 5rem;
+    min-width: 4rem;
 }
 .icons2 {
-	border-left: 8px solid #8ACF17;
+	border-left: 4px solid #8ACF17;
 	float: left;
 }
 .icons2 p{
@@ -173,7 +180,7 @@ body {
 }
 
 .descr2 {
-	min-height:12rem;
+	min-height:9rem;
 }
 
 /*MEDIA*/

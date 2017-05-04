@@ -21,7 +21,7 @@ body {
 }
 
 .jumbotron {
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg1.jpeg');
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg1.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 30rem;
@@ -99,7 +99,7 @@ body {
 
 .info3 {
 	/*background: #00A3DD;*/
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg.jpg');
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;

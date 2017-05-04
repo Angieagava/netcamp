@@ -21,7 +21,7 @@ body {
 }
 
 .jumbotron {
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg1.jpeg');
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg1.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 30rem;
@@ -77,7 +77,6 @@ body {
 }
 
 .info2 {
-	border-top: 5px solid #8acf17;
 	border-bottom: 5px solid #8acf17;
 }
 
@@ -98,8 +97,16 @@ body {
 	padding: 5px 0; 
 }
 
+.info3 {
+	/*background: #00A3DD;*/
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
 .info3 i.fa{
-	color: #00A3DD;
+	color: #fff;
 	font-size: 3rem;
 	padding-bottom: 2rem;
 }

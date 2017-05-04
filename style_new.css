@@ -1,4 +1,5 @@
 /*blue:#00A3DD; green: #8ACF17;*/
+@import "compass/css3";
 
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
@@ -35,17 +36,18 @@ body {
 
 .btn-primary {
 	border: 2px solid transparent;
-    background: #00A3DD;
     font-size: 1.8rem;
-    color: #fff;
+    color: #333;
+    background: #ffa700;
     text-align: center;
     font-family: inherit;
+    cursor: pointer;
 }
 
 .btn-primary:hover {
 	background: #fff;
-	color: #00A3DD;
-	border: 2px solid #00A3DD;
+	color: #ffa700;
+	border: 2px solid #ffa700;
 	transition: .5s;
 	transform: scale(1.1);
 	}
@@ -53,7 +55,8 @@ body {
 .btn-secondary {
 	background: #8acf17;
 	color:#fff;
-	font-family: inherit
+	font-family: inherit;
+	cursor: pointer;
 }
 .btn-secondary:hover {
 	background: #000;
@@ -64,6 +67,7 @@ body {
 	color:#fff;
 	background:#8ACF17;
 	border: 2px solid transparent;
+	cursor: pointer;
 }
 .btn-success:hover {
     color: #8ACF17;
@@ -181,6 +185,24 @@ body {
 
 .descr2 {
 	min-height:9rem;
+}
+.pulse {
+	animation-name: pulse_animation;
+	animation-duration: 3500ms;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes pulse_animation {
+	0% { transform: scale(1); }
+	30% { transform: scale(.95); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(.95); }
+	60% { transform: scale(1); }
+	70% { transform: scale(1.08); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1); }
 }
 
 /*MEDIA*/

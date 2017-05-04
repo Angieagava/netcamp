@@ -149,7 +149,7 @@ body {
 	margin:0 auto;
 
 }
-.icon img:hover, .step:hover {
+.icon img:hover, .step {
 	transition: .8s;
 	transform: scale(.8)
 }

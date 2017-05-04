@@ -4,9 +4,11 @@
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
 	color: #707070;
-	background: #eaeaea;
+	background: #f2f2f2;
 }
-
+a:hover {
+	text-decoration: none;
+}
 /*LOGO*/
 .logo2 img, .logo3 img {
 	max-width: 100%;
@@ -72,8 +74,7 @@ body {
 	animation: pulse 3s ease infinite alternate;
 }
 .btn-success:hover {
-    color: #8ACF17;
-    background: #fff;
+    color: #000;
     text-decoration: : none !important;
     border: 2px solid #8ACF17;
     animation-play-state: paused;

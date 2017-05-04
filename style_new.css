@@ -1,6 +1,15 @@
 /*blue:#00A3DD; green: #8ACF17;*/
 @import "compass/css3";
+/*clearfix*/
+.row:before,
+.row:after {
+    content: ""; 
+    display: block; 
+}
 
+.row:after {
+    clear: both;
+}
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
 	color: #707070;
@@ -161,16 +170,15 @@ a:hover {
 .icons1 {
 	padding: 0 0.1rem;
 	float: left;
-    min-width: 4rem;
+	margin-left: 0;
 }
 .icons2 {
 	border-left: 4px solid #8ACF17;
 	float: left;
 }
-.icons2 p{
-
+.icons2 p {
 	margin: .1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     white-space:nowrap;
 }

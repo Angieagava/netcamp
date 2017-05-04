@@ -1,3 +1,5 @@
+/*blue:#00A3DD; green: #8ACF17;*/
+
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
 	color: #333;
@@ -70,6 +72,9 @@ body {
 }
 
 /*INFO*/
+.text-info {
+	color: #00A3DD !important;
+}
 
 .info2 {
 	border-top: 5px solid #8acf17;
@@ -81,11 +86,22 @@ body {
 	margin: 1%;
 	max-width: 100%;
 }
-.info1 h3, .info1 h5{
-	text-align:center;
+.info1 h5 {
+	text-align: center;
 	font-size: 2rem;
 	color: #00A3DD;
-	padding: 5px 5px; 
+	padding: 5px; 
+}
+.info1 h3 {
+	font-size: 2rem;
+	color: #00A3DD;
+	padding: 5px 0; 
+}
+
+.info3 i.fa{
+	color: #00A3DD;
+	font-size: 3rem;
+	padding-bottom: 2rem;
 }
 
 .img-thumbnail {

@@ -254,10 +254,7 @@ body {
 	.logo2, .logo3 {
 		width: 50%;
 	}
-	.icon_s {
-		width: 50%;
-		float:left;
-	}
+	
 	.icons2 p, .icons1, {
 		font-size: .9rem;
 	}

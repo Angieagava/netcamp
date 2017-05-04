@@ -1,35 +1,9 @@
-
-
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
-	color: #000;
+	color: #333;
 }
 
-.jumbotron {
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg1.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 24rem;
-	color: #fff;
-	border-radius: 0;
-	background-attachment: fixed;
-}
-
-.btn-primary {
-	border: 2px solid transparent;
-    background: #00A3DD;
-    font-size: 1.8rem;
-    color: #fff;
-    text-align: center;
-    font-family: inherit;
-}
-.btn-primary:hover {
-	background: #fff;
-	color: #00A3DD;
-	border: 2px solid #00A3DD;
-	transition: .5s;
-	transform: scale(1.1);
-	}
+/*LOGO*/
 .logo2 img, .logo3 img {
 	max-width: 100%;
 	max-height: 3rem;
@@ -43,17 +17,71 @@ body {
 	white-space: nowrap;
 	color:#00A3DD;
 }
-.main {
+
+.jumbotron {
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 30rem;
+	color: #fff;
+	border-radius: 0;
+	background-attachment: fixed;
+}
+
+
+/*BUTTONS*/
+
+.btn-primary {
+	border: 2px solid transparent;
+    background: #00A3DD;
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    font-family: inherit;
+}
+
+.btn-primary:hover {
+	background: #fff;
+	color: #00A3DD;
+	border: 2px solid #00A3DD;
+	transition: .5s;
+	transform: scale(1.1);
+	}
+
+.btn-secondary {
+	background: #8acf17;
+	color:#fff;
+	font-family: inherit
+}
+.btn-secondary:hover {
+	background: #000;
+	color:#fff;
+
+}
+.btn-outline-success {
+	color:#8ACF17;
+	border-color:#8ACF17;
+}
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #8ACF17;
+    border-color: #fff;
+    text-decoration: none !important;
+}
+
+/*INFO*/
+
+.info2 {
 	border-top: 5px solid #8acf17;
 	border-bottom: 5px solid #8acf17;
 }
 
-aside img {
+.info1 img {
 	display: inline-block;
 	margin: 1%;
 	max-width: 100%;
 }
-aside h3, aside h5{
+.info1 h3, .info1 h5{
 	text-align:center;
 	font-size: 2rem;
 	color: #00A3DD;
@@ -68,6 +96,10 @@ aside h3, aside h5{
 	margin: .2rem auto;
 	max-width: 90%;
 }
+
+
+/*ICONS*/
+
 .icon {
 	margin: 2% auto;
 }
@@ -103,6 +135,10 @@ aside h3, aside h5{
 .text-success {
 	color: #8ACF17 !important;
 }
+
+
+/*FORM*/
+
 .form-space {
 	background: #00A3DD;
 }
@@ -111,16 +147,12 @@ aside h3, aside h5{
 	display: block;
 	margin: 0 auto;
 }
-.btn-secondary {
-	background: #8acf17;
-	color:#fff;
-	font-family: inherit
-}
-.btn-secondary:hover {
-	background: #000;
-	color:#fff;
 
+.descr2 {
+	min-height:12rem;
 }
+
+/*MEDIA*/
 
 @media (min-width: 300px) and (max-width: 640px) {
 	.icon img {
@@ -129,7 +161,7 @@ aside h3, aside h5{
 	.img-rounded {
 		display:none;
 	}
-	.main {
+	.info2 {
 		display: none;
 	}
 }

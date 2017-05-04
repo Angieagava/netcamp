@@ -60,15 +60,14 @@ body {
 	color:#fff;
 
 }
-.btn-outline-success {
-	color:#8ACF17;
-	border-color:#8ACF17;
+.btn-success {
+	color:#fff;
+	background:#8ACF17;
 }
-.btn-outline-success:hover {
-    color: #fff;
-    background-color: #8ACF17;
-    border-color: #fff;
-    text-decoration: none !important;
+.btn-success:hover {
+    color: #8ACF17;
+    background: #fff;
+    text-decoration: : none !important;
 }
 
 /*INFO*/
@@ -120,7 +119,9 @@ body {
 	max-width: 90%;
 }
 
-
+.left1 p {
+	font-size: 1.1rem;
+}
 /*ICONS*/
 
 .icon {
@@ -157,7 +158,9 @@ body {
 	color: #8ACF17 !important;
 }
 
-
+.info3 p {
+	font-size: 1.2rem;
+}
 /*FORM*/
 
 .form-space {
@@ -175,15 +178,24 @@ body {
 
 /*MEDIA*/
 
-@media (min-width: 300px) and (max-width: 640px) {
+@media (min-width: 100px) and (max-width: 640px) {
 	.icon img {
 		max-width: 100%;
 	}
-	img.rounded {
+	.right1 {
 		display:none;
+	}
+	.left1 {
+		width: 100%;
 	}
 	.info2 {
 		display: none;
+	}
+	.logo1 {
+		text-align:center;
+	}
+	.left, .right {
+		width: 100%;
 	}
 }
 

@@ -149,7 +149,7 @@ body {
 	margin:0 auto;
 
 }
-.icon img:hover, .step {
+.icon img:hover {
 	transition: .8s;
 	transform: scale(.8)
 }
@@ -257,6 +257,7 @@ body {
 	
 	.icons2 p, .icons1, {
 		font-size: .9rem;
+		float: right;
 	}
 	.info1 i.fa {
 		min-width: 2rem;

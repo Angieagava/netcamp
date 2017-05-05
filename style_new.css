@@ -37,6 +37,12 @@ a:hover {
 	white-space:nowrap;
 	width: 100%;
 }
+.logo1 h2 {
+	font-size: 2.5rem;
+}
+.logo1 h3 {
+	font-size:2.16rem;
+}
 
 .logo2, .logo3 {
 	float: left;
@@ -248,34 +254,20 @@ a:hover {
 /*MEDIA*/
 
 @media (min-width: 100px) and (max-width: 640px) {
-	.icon img {
-		max-width: 100%;
-	}
-	.right1 {
-		display:none;
-	}
-	.left1 {
-		width: 100%;
-	}
-	.info2 {
-		display: none;
-	}
-	.logo1 {
-		text-align:center;
-	}
-	.left, .right {
-		width: 100%;
-	}
-	.info3 p {
-	font-size: .9rem;
-	}
-	.icons2 p, .icons1, {
-		font-size: .9rem;
-		float: right;
-	}
-	.info1 i.fa {
-		min-width: 2rem;
-		font-size: 2rem;
-	}
+
+	.icon img {max-width: 100%;}
+	.right1 {display:none;}
+	.left1 {width: 100%;}
+	.info2 {display: none;}
+	.logo1 {text-align:center;}
+	.left, .right {width: 100%;}
+	.info3 p {font-size: .9rem;}
+	.icons2 p, .icons1, {font-size: .9rem;float: right;}
+	.info1 i.fa {min-width: 2rem;font-size: 2rem;}
+	.prgbr {display: none;}
+	.step {width: 50%;}
+	.logo1 h2{font-size: 1.7rem;}
+	.logo1 h3 {font-size:1.5rem;}
+	.logo2, .logo3 {width: 100%;}
 }
 

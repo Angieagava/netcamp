@@ -13,11 +13,15 @@
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
 	color: #707070;
-	background: #f2f2f2;
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffffff, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffffff, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 a:hover {
 	text-decoration: none;
 }
+
 /*LOGO*/
 .logo2 img, .logo3 img {
 	max-width: 100%;
@@ -31,7 +35,13 @@ a:hover {
 .logo1 {
 	white-space: nowrap;
 	color:#00A3DD;
-
+}
+.logo1 > h2 {
+	font-size: 2.5rem;
+}
+.logo1 > h3 {
+	font-size: 2.16rem;
+	padding-top: 0;
 }
 
 .jumbotron {
@@ -94,9 +104,12 @@ a:hover {
 	color: #00A3DD !important;
 }
 
+.info1 {
+	border-bottom: 5px solid #8acf17;
+}
+
 .info2 {
 	border-bottom: 5px solid #8acf17;
-
 }
 
 .info1 img {
@@ -143,9 +156,10 @@ a:hover {
 	font-size: 1.1rem;
 }
 .about img {
-	max-width: 90%;
+	max-width: 100%;
 	display: block;
-	margin: auto;
+	margin: 0 auto;
+	position: center center;
 }
 /*ICONS*/
 
@@ -166,21 +180,18 @@ a:hover {
 .info1 i.fa {
 	font-size: 3rem;
 	color: #8ACF17;
+	text-align:center;
+	margin:0 auto;
 }
-.icons1 {
-	padding: 0 0.1rem;
-	float: left;
-	margin-left: 0;
-}
+
 .icons2 {
-	border-left: 4px solid #8ACF17;
-	float: left;
 }
 .icons2 p {
 	margin: .1rem;
     font-size: 1.1rem;
     text-transform: uppercase;
     white-space:nowrap;
+    text-align:center;
 }
 
 .text-success {

@@ -259,7 +259,7 @@ a:hover {
 	.right1 {display:none;}
 	.left1 {width: 100%;}
 	.info2 {display: none;}
-	.logo1 {text-align:center;}
+	.logo1 {text-align:center;border-bottom: 2rem solid transparent;}
 	.left, .right {width: 100%;}
 	.info3 p {font-size: .9rem;}
 	.icons2 p, .icons1, {font-size: .9rem;float: right;}

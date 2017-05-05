@@ -1,5 +1,7 @@
 /*blue:#00A3DD; green: #8ACF17;*/
+
 @import "compass/css3";
+
 /*clearfix*/
 .row:before,
 .row:after {
@@ -10,19 +12,40 @@
 .row:after {
     clear: both;
 }
+/*GENERAL*/
+
 body {
 	font-family: 'Titillium Web', Verdana, sans-serif;
 	color: #707070;
-	background: #ECE9E6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ffffff, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ffffff, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: url('images/p5.jpg');
+	background-attachment:fixed;
 }
 a:hover {
 	text-decoration: none;
 }
+.text-success {
+	color: #8ACF17 !important;
+}
+.text-info {
+	color: #00A3DD !important;
+}
 
 /*LOGO*/
+
+.logo1 {
+	color:#00A3DD;
+	white-space:nowrap;
+}
+.logo1 h2 {
+	font-size:2.5rem;
+}
+.logo1 h3 {
+	font-size:2.16rem;
+}
+.logo2, .logo3 {
+	float: left;
+	width: 50%;
+}
 .logo2 img, .logo3 img {
 	max-width: 100%;
 	max-height: 3rem;
@@ -32,24 +55,11 @@ a:hover {
 .logo2 p,.logo3 p {
 	border-top: 2px solid transparent;
 }
-.logo1 {
-	color:#00A3DD;
-	white-space:nowrap;
-	width: 100%;
-}
-.logo1 h2 {
-	font-size: 2.5rem;
-}
-.logo1 h3 {
-	font-size:2.16rem;
-}
 
-.logo2, .logo3 {
-	float: left;
-	width: 50%;
-}
+/*JUMBOTRON*/
+
 .jumbotron {
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg1.jpeg');
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg1.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -94,25 +104,17 @@ a:hover {
 	background:#8ACF17;
 	border: 2px solid transparent;
 	cursor: pointer;
+	font-family: inherit;
 	animation: pulse 3s ease infinite alternate;
 }
 .btn-success:hover {
     color: #000;
-    text-decoration: : none !important;
     border: 2px solid #8ACF17;
-    animation-play-state: paused;
 }
 
 /*INFO*/
-.text-info {
-	color: #00A3DD !important;
-}
 
 .info1 {
-	border-bottom: 5px solid #8acf17;
-}
-
-.info2 {
 	border-bottom: 5px solid #8acf17;
 }
 
@@ -132,14 +134,25 @@ a:hover {
 	color: #00A3DD;
 	padding: 5px 0; 
 }
-
+.info1 i.fa {
+	font-size: 3rem;
+	color: #8ACF17;
+	text-align:center;
+	margin:0 auto;
+}
+.info2 {
+	border-bottom: 5px solid #8acf17;
+}
 .info3 {
 	/*background: #00A3DD;*/
-	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('bg.jpg');
+	background-image: radial-gradient(rgba(19, 96, 103,.6),rgba(19, 97, 103,.6)),url('images/bg.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
+}
+.info3 p {
+	font-size: 1.2rem;
 }
 .info3 i.fa{
 	color: #fff;
@@ -147,24 +160,6 @@ a:hover {
 	padding-bottom: 2rem;
 }
 
-.img-thumbnail {
-	border: 1px solid #8ACF17;
-}
-.img-thumbnail img {
-	display:block;
-	margin: .2rem auto;
-	max-width: 90%;
-}
-
-.left1 p {
-	font-size: 1.1rem;
-}
-.about img {
-	max-width: 100%;
-	display: block;
-	margin: 0 auto;
-	position: center center;
-}
 /*ICONS*/
 
 .icon {
@@ -181,15 +176,7 @@ a:hover {
 	transition: .8s;
 	transform: scale(.8)
 }
-.info1 i.fa {
-	font-size: 3rem;
-	color: #8ACF17;
-	text-align:center;
-	margin:0 auto;
-}
 
-.icons2 {
-}
 .icons2 p {
 	margin: .1rem;
     font-size: 1.1rem;
@@ -198,13 +185,6 @@ a:hover {
     text-align:center;
 }
 
-.text-success {
-	color: #8ACF17 !important;
-}
-
-.info3 p {
-	font-size: 1.2rem;
-}
 /*FORM*/
 
 .form-space {
@@ -216,10 +196,29 @@ a:hover {
 	margin: 0 auto;
 }
 
+/*OTHER*/
+
+.left1 p {
+	font-size: 1.1rem;
+}
+.about img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	position: center center;
+}
 .descr2 {
 	min-height:9rem;
 }
+.prgbr {
+	margin: 0 auto;
+	width: 100%;
+	height: .4rem;
+	background: #fff;
+	animation: pulse 3s ease infinite alternate;
+}
 
+/*PULSE*/
 .pulse {
 	animation-name: pulse_animation;
 	animation-duration: 2500ms;
@@ -235,20 +234,12 @@ a:hover {
 }
 
 @keyframes pulse {
-  0%, 100% {
+	0%, 100% {
     background-color: #00A3DD;
-  }
-  50% {
+  	}
+	50% {
     background-color: #8ACF17;
-  }
-}
-
-.prgbr {
- margin: 0 auto;
-  width: 100%;
-  height: .4rem;
-  background: #fff;
-  animation: pulse 3s ease infinite alternate;
+  	}
 }
 
 /*MEDIA*/
